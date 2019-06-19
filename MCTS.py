@@ -102,25 +102,3 @@ def backpropagate(leaf):  # don't forget about this
 
 
 t.search(5)
-
-print(t.QU_factors(t.root))
-print(t.root.daughter_actions)
-
-for i in t.root.daughters:
-    print(t.nodes[i].visit_count)
-
-
-'''t.initialize_new_node(t.root, 2)
-t.initialize_new_node(t.root, 5)
-t.initialize_new_node(t.nodes[0], 4)
-t.initialize_new_node(t.nodes[0], 2)
-
-print(t.root.action_vector)
-print(t.root.legal_moves)
-print(choose_action(t.nodes[2]))'''
-
-
-
-
-
-
